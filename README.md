@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Contributing to the Lupleg Repository
 
-## Getting Started
+Thank you for your interest in contributing to the Lupleg repository! Follow the steps below to get started:
 
-First, run the development server:
+1. Fork the repository: Click on the "Fork" button at the top right corner of the repository page. This will create a copy of the repository in your GitHub account.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Clone the repository: On your local machine, navigate to the directory where you want to clone the repository. Run the following command in your terminal:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    ```
+    git clone https://github.com/your-username/lupleg-repo.git
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Create a new branch: Before making any changes, create a new branch to work on. This helps keep your changes separate from the main branch. Run the following command to create a new branch:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```
+    git checkout -b my-feature
+    ```
 
-## Learn More
+4. Make your changes: Open the project in your preferred code editor and make the necessary changes or additions. Ensure that your changes align with the project's guidelines and coding standards.
 
-To learn more about Next.js, take a look at the following resources:
+5. Commit your changes: Once you are satisfied with your changes, commit them to your local repository. Run the following command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```
+    git commit -m "Add my feature"
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+6. Push your changes: Push your changes to your forked repository on GitHub. Run the following command:
 
-## Deploy on Vercel
+    ```
+    git push origin my-feature
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+7. Create a pull request: Go to the original Lupleg repository on GitHub and click on the "New pull request" button. Provide a clear and concise description of your changes and submit the pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+8. Review and address feedback: The repository maintainers will review your pull request and provide feedback or request changes if necessary. Make the required updates and push the changes to your branch.
+
+9. Merge your changes: Once your pull request is approved, it will be merged into the main branch. Congratulations, your contribution is now part of the Lupleg repository!
+
+Remember to regularly sync your forked repository with the original repository to stay up to date with the latest changes.
+
+Happy contributing!
