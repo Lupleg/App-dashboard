@@ -8,7 +8,10 @@ export default function Trainings() {
           <div className="container px-4 md:px-6 space-y-10 xl:space-y-16">
             <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
-                <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
+                <h1
+                  className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] mx-0 mr-auto 
+                "
+                >
                   Elevate Your Software Development Skills
                 </h1>
               </div>
@@ -36,7 +39,9 @@ export default function Trainings() {
                       comprehensive training program.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Button variant="link" className=" hover:text-orange-500">
+                    Learn More →
+                  </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
@@ -121,7 +126,9 @@ export default function Trainings() {
                       engineering training program.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Button variant="link" className="hover:text-orange-500">
+                    Learn More →
+                  </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
@@ -200,7 +207,9 @@ export default function Trainings() {
                       program on cloud infrastructure and architecture.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Button variant="link" className=" hover:text-orange-500">
+                    Learn More →
+                  </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
