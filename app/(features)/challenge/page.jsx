@@ -58,10 +58,10 @@ function Challenge() {
             </b>
             supercharging their coding skills by building projects.
           </p>
-          <div className="bg-green-800 rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
+          <div className=" rounded-lg transition  w-max mx-auto group cursor-pointer">
             <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-900 flex justify-center items-center">
               <a
-                className="bg-green-900 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
+                className=" bg-green-700 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-black z-10"
                 href="/dashboard"
               >
                 Start coding
@@ -272,7 +272,7 @@ function Challenge() {
           Join the challenge now!
         </h2>
         <a
-          className="inline-block bg-green-900  text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-80"
+          className="inline-block bg-green-900 hover:bg-black text-white text-lg font-bold rounded-lg py-4 px-8 cursor-pointer hover:opacity-100 "
           href="/dashboard"
         >
           Join challenge

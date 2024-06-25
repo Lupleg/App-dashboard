@@ -67,7 +67,7 @@ export default function Footer() {
               placeholder="Enter Your Email Here"
               type="text"
             />
-            <Button className="w-full md:w-auto bg-orange-700 hover:bg-orange-700">
+            <Button className="w-full md:w-auto bg-orange-700 hover:bg-orange-500">
               Subscribe
             </Button>
           </div>
@@ -80,7 +80,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="pt-5 ">
-            <Button className="bg-orange-700 hover:bg-orange-700">
+            <Button className="bg-orange-700 hover:bg-orange-500">
               <Link href="careers">Careers</Link>
             </Button>
           </div>
