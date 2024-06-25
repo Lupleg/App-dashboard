@@ -18,7 +18,7 @@ function FAQ() {
                 How can you ensure we find the best candidates aligned with our
                 specific needs?{" "}
               </h3>
-              <div className="bg-green-200 text-black  text-xs md:text-sm px-4 py-2 rounded-2xl">
+              <div className="bg-green-200 text-black  text-xs md:text-sm px-4 py-2 rounded-2xl w-[200px] h-12">
                 For Business
               </div>
             </div>
@@ -95,16 +95,18 @@ function FAQ() {
 
       <div className="flex flex-col py-16">
         <div className="flex flex-col gap-4 md:mb-10 mb-6">
-          <h3 className="text-center text-green-900">Helpdesk</h3>
+          <h3 className="text-center text-green-700 font-bold text-[13px]">
+            HELPDESK
+          </h3>
           <p className="text-center text-black md:text-5xl text-3xl font-bold">
             Need some more help? <br />
             Visit our help desk
           </p>
         </div>
-        <div className="bg-green-800 rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer">
+        <div className="bg-[#ED7133] rounded-lg transition hover:-translate-y-1 w-max mx-auto group cursor-pointer border-none hover:bg-black">
           <div className="animated-border after:opacity-100 before:opacity-100 p-0.5 rounded-lg text-green-300 flex justify-center items-center">
             <a
-              className="bg-green-800 text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg group-hover:bg-green-700 z-10"
+              className="bg-[#ED7133] text-white text-lg font-bold py-4 px-8 cursor-pointer relative w-full rounded-lg  z-10 border-none hover:bg-black"
               href="/#helpdesk"
             >
               Go to Help Desk

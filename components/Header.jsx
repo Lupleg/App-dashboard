@@ -49,9 +49,9 @@ export default function Header() {
         </nav>
       </div>
 
-      <div className="text-md hidden rounded-full   p-2 border-2 border-green-700  md:block">
+      <div className="text-md hidden  md:block">
         {/* <Link href="account-profile">Go Profile</Link> */}
-        <UserButton className="m-2 " />
+        <UserButton className="m-2 h-20 w-20" />
       </div>
 
       {/* mobile view */}
