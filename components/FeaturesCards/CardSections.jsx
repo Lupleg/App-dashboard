@@ -1,6 +1,12 @@
 import React from "react";
 
-const CardSections = ({ title, subtitle, description, imageUrl, learnMoreLink }) => {
+const CardSections = ({
+  title,
+  subtitle,
+  description,
+  imageUrl,
+  learnMoreLink,
+}) => {
   return (
     <div className="w-full bg-transparent">
       <div className="flex flex-col md:flex-row lg:gap-20 gap-8 md:gap-12 container mx-auto lg:py-28 py-24 px-8">
@@ -17,7 +23,12 @@ const CardSections = ({ title, subtitle, description, imageUrl, learnMoreLink })
             </p>
           </div>
           <div>
-            <a href={learnMoreLink} className="text-green-900 hover:text-orange-500">Learn more →</a>
+            <a
+              href={learnMoreLink}
+              className="text-green-900 hover:text-orange-500 font-bold"
+            >
+              Learn more →
+            </a>
           </div>
         </div>
         <div className="md:w-1/2">
