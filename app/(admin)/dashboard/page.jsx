@@ -1,9 +1,10 @@
 "use client";
 
 import { CiLogout } from "react-icons/ci";
+import { SiDatastax } from "react-icons/si";
 import { SignOutButton, useUser } from "@clerk/nextjs";
 import { SiThealgorithms } from "react-icons/si";
-import { FaDatabase, FaCode } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -40,13 +41,13 @@ export default function Component() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-6 mt-4">Upcoming Challenges</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Card className="bg-gradient-to-br from-gray-400 via-gray-500 to-gray-700 flex flex-col justify-center items-start">
+            <Card className=" border border-gray-600 flex flex-col justify-center items-start">
               <SiThealgorithms className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
-                <CardTitle className="mb-4 text-gray-300">
+                <CardTitle className="mb-4">
                   Algorithm Challenge
                 </CardTitle>
-                <CardDescription className=" text-white">
+                <CardDescription className="">
                   June 15, 2023
                 </CardDescription>
               </CardHeader>
@@ -60,13 +61,13 @@ export default function Component() {
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-400 via-gray-500 to-gray-700 flex flex-col justify-center items-start">
-              <FaDatabase className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
+            <Card className="border border-gray-600 flex flex-col justify-center items-start">
+              <SiDatastax className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
-                <CardTitle className="mb-4 text-gray-300">
+                <CardTitle className="mb-4">
                   Data Structures Challenge
                 </CardTitle>
-                <CardDescription className=" text-white">
+                <CardDescription className="">
                   Nov 15, 2023
                 </CardDescription>
               </CardHeader>
@@ -80,13 +81,13 @@ export default function Component() {
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-400 via-gray-500 to-gray-700 flex flex-col justify-center items-start">
+            <Card className="border border-gray-600 flex flex-col justify-center items-start">
               <FaCode className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
-                <CardTitle className="mb-4 text-gray-300">
+                <CardTitle className="mb-4">
                   Coding Interview Challenge
                 </CardTitle>
-                <CardDescription className=" text-white">
+                <CardDescription className="">
                   June 15, 2023
                 </CardDescription>
               </CardHeader>
@@ -105,7 +106,7 @@ export default function Component() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-6 mt-4">Active Challenges</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Card className="bg-gradient-to-br from-gray-300 via-gray-400 to-gray-600">
+            <Card className="border border-gray-600">
               <SiThealgorithms className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Algorithm Challenge</CardTitle>
@@ -123,8 +124,8 @@ export default function Component() {
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-300 via-gray-400 to-gray-600">
-              <FaDatabase className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
+            <Card className="border border-gray-600">
+              <SiDatastax className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Data Structures Challenge</CardTitle>
               </CardHeader>
@@ -141,7 +142,7 @@ export default function Component() {
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-300 via-gray-400 to-gray-600">
+            <Card className="border border-gray-600">
               <FaCode className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Coding Interview Challenge</CardTitle>
@@ -162,7 +163,7 @@ export default function Component() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-            <Card className="bg-gradient-to-br from-gray-300 via-gray-400 to-gray-600">
+            <Card className="border border-gray-600">
               <SiThealgorithms className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Algorithm Challenge</CardTitle>
@@ -180,8 +181,8 @@ export default function Component() {
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-300 via-gray-400 to-gray-600">
-              <FaDatabase className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
+            <Card className="border border-gray-600">
+              <SiDatastax className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Data Structures Challenge</CardTitle>
               </CardHeader>
@@ -198,7 +199,7 @@ export default function Component() {
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-300 via-gray-400 to-gray-600">
+            <Card className="border border-gray-600">
               <FaCode className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Coding Interview Challenge</CardTitle>
@@ -221,14 +222,14 @@ export default function Component() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-6 mt-4">Past Challenges</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Card className="bg-gradient-to-br from-gray-500 via-gray-400 to-gray-200">
+            <Card className="border border-gray-600">
               <SiThealgorithms className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Algorithm Challenge</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between mb-2 mt-3">
-                  <span className="p-1 border rounded-lg border-gray-600 text-green-900">
+                  <span className="text-green-900">
                     Score: 95
                   </span>
                   <Button
@@ -241,14 +242,14 @@ export default function Component() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-500 via-gray-400 to-gray-200">
-              <FaDatabase className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
+            <Card className="border border-gray-600">
+              <SiDatastax className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Data Structures Challenge</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between mb-2 mt-2">
-                  <span className="p-1 border rounded-lg border-gray-600 text-green-900">
+                  <span className=" text-green-900">
                     Score: 95
                   </span>
                   <Button
@@ -261,14 +262,14 @@ export default function Component() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-gray-500 via-gray-400 to-gray-200">
+            <Card className="border border-gray-600">
               <FaCode className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
                 <CardTitle>Coding Interview Challenge</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between mb-2 mt-3">
-                  <span className="p-1 border rounded-lg border-gray-600 text-green-900">
+                  <span className=" text-green-900">
                     Score: 95
                   </span>
                   <Button
@@ -287,17 +288,17 @@ export default function Component() {
           <h2 className="text-2xl font-bold mb-6 mt-4">Leaderboard 🏆</h2>
           <Card>
             <Table>
-              <TableHeader className="text-xl text-gray-900 rounded-t-lg">
+              <TableHeader className="text-xl rounded-t-lg font-bold">
                 <TableRow>
-                  <TableHead className="py-4">Rank</TableHead>
-                  <TableHead> User </TableHead>
-                  <TableHead>Score</TableHead>
+                  <TableHead className="py-4 text-[#000] font-bold">Rank</TableHead>
+                  <TableHead className="py-4 text-[#000] font-bold"> User </TableHead>
+                  <TableHead className="py-4 text-[#000] font-bold">Score</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
                 <TableRow>
                   <TableCell>
-                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl">
+                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl text-white font-bold">
                       1
                     </span>
                   </TableCell>
@@ -313,7 +314,7 @@ export default function Component() {
                 </TableRow>
                 <TableRow>
                   <TableCell>
-                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl">
+                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl text-white font-bold">
                       2
                     </span>
                   </TableCell>
@@ -329,7 +330,7 @@ export default function Component() {
                 </TableRow>
                 <TableRow>
                   <TableCell>
-                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl">
+                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl text-white font-bold">
                       3
                     </span>
                   </TableCell>
@@ -345,7 +346,7 @@ export default function Component() {
                 </TableRow>
                 <TableRow>
                   <TableCell>
-                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl">
+                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl text-white font-bold">
                       4
                     </span>
                   </TableCell>
@@ -361,7 +362,7 @@ export default function Component() {
                 </TableRow>
                 <TableRow>
                   <TableCell>
-                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl">
+                    <span className="bg-[#ED7133] rounded-lg flex items-center justify-center w-10 h-10 text-xl text-white font-bold">
                       5
                     </span>
                   </TableCell>
