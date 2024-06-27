@@ -57,73 +57,81 @@ function page() {
 
             <h2>Benefits of Mentorship</h2>
 
-            <p>
-              Experience personalized guidance tailored to your learning pace
-              and goals. Benefit from expert feedback on your projects and gain
-              insights into industry best practices and trends.
-            </p>
-
-            <h2>Curriculum Overview</h2>
-
-            <sm>Our program covers:</sm>
             <ul className="list-disc list-inside">
               <li>
-                HTML5 and CSS3 Fundamentals: Learn to structure and style web
-                pages effectively.
+                Personalized Guidance: Tailored to your learning pace and goals.
               </li>
               <li>
-                JavaScript and Modern Frameworks: Dive into JavaScript
-                programming and explore popular frameworks like React and Vue.js
-                for building dynamic web applications.
+                Expert Feedback: Receive constructive feedback on your projects.
               </li>
               <li>
-                UI/UX Design Principles: Understand user interface design and
-                user experience principles to create intuitive and visually
-                appealing websites.
+                Industry Insights: Stay updated with best practices and current
+                trends.
               </li>
             </ul>
 
-            <h2>Tools and Resources for Frontend Mentorship</h2>
-            <ul className="list-disc list-inside">
-              <li>
-                Online Learning Platforms: Codecademy, freeCodeCamp, Udemy,
-                Coursera.
-              </li>
-              <li>
-                Code Repositories: GitHub, GitLab for collaborative projects and
-                code reviews.
-              </li>
-              <li>
-                Communication Tools: Slack, Discord, Microsoft Teams for regular
-                communication.
-              </li>
-              <li>
-                Project Management: Trello, Asana for tracking progress and
-                setting milestones.
-              </li>
-              <li>
-                Code Editors: Visual Studio Code, Sublime Text for writing and
-                debugging code.
-              </li>
-            </ul>
+            <div>
+              <h2>Curriculum Overview</h2>
 
-            <h2>Success Stories</h2>
+              <sm>Our program covers:</sm>
+              <ul className="list-disc list-inside">
+                <li>
+                  HTML5 and CSS3 Fundamentals: Learn to structure and style web
+                  pages effectively.
+                </li>
+                <li>
+                  JavaScript and Modern Frameworks: Dive into JavaScript
+                  programming and explore popular frameworks like React and
+                  Vue.js for building dynamic web applications.
+                </li>
+                <li>
+                  UI/UX Design Principles: Understand user interface design and
+                  user experience principles to create intuitive and visually
+                  appealing websites.
+                </li>
+              </ul>
 
-            <p>
-              Highlighting success stories of mentorship relationships can
-              provide inspiration and demonstrate the real-world impact of
-              effective mentorship. These stories can show how mentees have
-              progressed in their careers, contributed to significant projects,
-              or even become mentors themselves.
-            </p>
+              <h2>Tools and Resources for Frontend Mentorship</h2>
+              <ul className="list-disc list-inside">
+                <li>
+                  Online Learning Platforms: Codecademy, freeCodeCamp, Udemy,
+                  Coursera.
+                </li>
+                <li>
+                  Code Repositories: GitHub, GitLab for collaborative projects
+                  and code reviews.
+                </li>
+                <li>
+                  Communication Tools: Slack, Discord, Microsoft Teams for
+                  regular communication.
+                </li>
+                <li>
+                  Project Management: Trello, Asana for tracking progress and
+                  setting milestones.
+                </li>
+                <li>
+                  Code Editors: Visual Studio Code, Sublime Text for writing and
+                  debugging code.
+                </li>
+              </ul>
+              <img src="#"></img>
+            </div>
 
-            <h2>Success Stories/Testimonials</h2>
+            <div>
+              <h2>Success Stories/Testimonials</h2>
+              <p>
+                Discover the impact of our mentorship program through real-world
+                success stories.
+              </p>
 
-            <p>
-              "Thanks to the mentorship program, I gained confidence in my
-              coding abilities and landed a job as a frontend developer at a
-              tech startup." - Sarah B., Program Graduate
-            </p>
+              <h3>Sarah B., Program Graduate</h3>
+              <p>
+                "Thanks to the mentorship program, I gained confidence in my
+                coding abilities and landed a job as a frontend developer at a
+                tech startup."
+              </p>
+              <img src="#"></img>
+            </div>
 
             <div className="container">
               <h1>Enroll to get started 👇</h1>
