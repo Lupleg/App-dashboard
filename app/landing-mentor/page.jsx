@@ -114,7 +114,10 @@ function page() {
                   debugging code.
                 </li>
               </ul>
-              <img src="#"></img>
+              <img
+                src="https://fiverr-res.cloudinary.com/videos/so_1.287226,t_main1,q_auto,f_auto/dc4w7ym9ndluwgdpae9k/
+              do-html-css-javascript-bootstrap-react-and-angular-projects.png"
+              ></img>
             </div>
 
             <div>
@@ -130,7 +133,7 @@ function page() {
                 coding abilities and landed a job as a frontend developer at a
                 tech startup."
               </p>
-              <img src="#"></img>
+              <img src="https://images.squarespace-cdn.com/content/v1/62309ac801c3144b2274e5af/6e17170d-1790-46ea-a110-834c041a668c/8.png"></img>
             </div>
 
             <div className="container">
