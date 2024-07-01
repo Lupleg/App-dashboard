@@ -13,7 +13,7 @@ const Sidebar = ({challenges, onSelectChallenge}) => {
         <ul className=" flex flex-col text-xl">
           {
           challenges.map((challenge) => (
-            <li><SidebarButton key={challenge.title} challengeName={challenge.title} onClick={() => onSelectChallenge(challenge)} />
+            <li className="border-b-[0.2px] border-gray-400"><SidebarButton key={challenge.title} challengeName={challenge.title} onClick={() => onSelectChallenge(challenge)} />
             </li>
           ))
         }

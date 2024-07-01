@@ -22,7 +22,7 @@ export default function Component() {
           help novice scale up their career in tech.
         </p>
         <Button className="W-15 mt-8 px-8 py-3 text-md bg-[#ED7133] text-white rounded-lg p-8 hover:bg-black focus:outline-none focus:ring-2 focus:ring-orange focus:ring-opacity-50 transition duration-300">
-          <Link href="contacts">Click Me</Link>
+          <Link href="contacts">Get Started</Link>
         </Button>
         <br />
         {/* <Cards /> */}
