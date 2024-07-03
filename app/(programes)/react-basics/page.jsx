@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-// TODO: Improve font sizes at Course Curriculum section and a missing image at top part of the course
+// TODO: Improve font sizes at Course Curriculum section, About the Course section and a missing image at top part of the course
 
 
 export default function Dashboard() {
