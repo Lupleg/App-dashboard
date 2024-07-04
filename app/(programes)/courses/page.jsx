@@ -20,7 +20,7 @@ export default function Courses() {
             <span className="sr-only">View Course</span>
           </Link>
           <img
-            src="/html-css-js.jpg"
+            src="/html-css-js.png"
             alt="Course 1"
             width={500}
             height={300}
@@ -42,7 +42,7 @@ export default function Courses() {
             <span className="sr-only">View Course</span>
           </Link>
           <img
-            src="/react-img.jpg"
+            src="/react-js.png"
             alt="Course 2"
             width={500}
             height={300}
@@ -64,7 +64,7 @@ export default function Courses() {
             <span className="sr-only">View Course</span>
           </Link>
           <img
-            src="/dsa-img.jpg"
+            src="/dsa.png"
             alt="Course 3"
             width={500}
             height={300}
