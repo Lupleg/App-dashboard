@@ -6,10 +6,10 @@ import { Button } from "@/components/ui/button";
 export default function Courses() {
   return (
     <div className="mb-20">
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center my-7">
         <h2 className="text-2xl font-bold">Our Courses</h2>
       </div>
-      <p className="text-center text-xl px-20">
+      <p className="text-center text-xl mb-2 px-20">
         Interactive, hands-on learning experience that's as fun as it is
         educational! These paths are all about practicing the concepts, making
         learning engaging, and guiding you toward mastering specific topics.
@@ -20,7 +20,7 @@ export default function Courses() {
             <span className="sr-only">View Course</span>
           </Link>
           <img
-            src="https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png"
+            src="/html-css-js.jpg"
             alt="Course 1"
             width={500}
             height={300}
@@ -42,7 +42,7 @@ export default function Courses() {
             <span className="sr-only">View Course</span>
           </Link>
           <img
-            src="https://i.ytimg.com/vi/ACaT1Gfhe6I/maxresdefault.jpg"
+            src="/react-img.jpg"
             alt="Course 2"
             width={500}
             height={300}
@@ -64,7 +64,7 @@ export default function Courses() {
             <span className="sr-only">View Course</span>
           </Link>
           <img
-            src="https://media.licdn.com/dms/image/D5612AQHiF9DmM5LerQ/article-cover_image-shrink_600_2000/0/1708869193829?e=2147483647&v=beta&t=X6YLzalfl-4Zry-BGdZda_oS2wVRwAe9EPy0sfOQMSY"
+            src="/dsa-img.jpg"
             alt="Course 3"
             width={500}
             height={300}
