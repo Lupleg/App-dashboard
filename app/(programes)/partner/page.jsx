@@ -38,7 +38,7 @@ export default function Partnership() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Benefits of Partnering with Lupleg
               </h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed dark:text-gray-400">
                 Lupleg's partner program offers a range of benefits to help you
                 grow your business and better serve your customers.
               </p>
@@ -46,43 +46,43 @@ export default function Partnership() {
           </div>
           <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Increased Revenue</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Increased Revenue</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Earn commissions and referral fees by promoting Lupleg's
                 solutions to your customers.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Exclusive Discounts</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Exclusive Discounts</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Enjoy special pricing and discounts on Lupleg products and
                 services.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Dedicated Support</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Dedicated Support</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Receive personalized support and training to help you
                 effectively sell and implement Lupleg solutions.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Co-Marketing Opportunities</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Co-Marketing Opportunities</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Collaborate with Lupleg on joint marketing campaigns to reach
                 new customers.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Access to Resources</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Access to Resources</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Leverage Lupleg's educational content, sales tools, and
                 technical resources to support your customers.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Flexible Partnership Models</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Flexible Partnership Models</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Choose from a variety of partnership options to best fit your
                 business needs and goals.
               </p>
@@ -97,7 +97,7 @@ export default function Partnership() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Partnership Opportunities
               </h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed dark:text-gray-400">
                 Lupleg offers a variety of partnership models to fit your
                 business needs and goals.
               </p>
@@ -105,43 +105,43 @@ export default function Partnership() {
           </div>
           <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Reseller</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Reseller</h3>
+              <p className="text-xl text-gray-500 dark:text-gray-400">
                 Sell Lupleg's solutions directly to your customers and earn
                 commissions on each sale.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Referral</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Referral</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Refer customers to Lupleg and earn a percentage of the revenue
                 generated from each sale.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Technology Partner</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Technology Partner</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Integrate Lupleg's solutions with your own products and services
                 to provide a seamless experience for your customers.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Consulting Partner</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Consulting Partner</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Offer implementation, training, and support services to Lupleg
                 customers and earn fees for your expertise.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Affiliate</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Affiliate</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Promote Lupleg's solutions on your website or through your
                 marketing channels and earn a commission on each sale.
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Strategic Partner</h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
+              <h3 className="text-xl font-bold">Strategic Partner</h3>
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 Collaborate with Lupleg on joint go-to-market strategies,
                 product development, and other strategic initiatives.
               </p>
