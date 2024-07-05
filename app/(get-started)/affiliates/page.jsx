@@ -5,7 +5,7 @@ export default function Component() {
     <div className="bg-gray-50">
       <div className="flex flex-col gap-2 text-center">
         <div className="space-y-2">
-          <div className="mt-10 inline-block rounded-lg bg-green-500 px-3 py-1 text-lg font-bold dark:bg-gray-600">
+          <div className="mt-10 text-white inline-block rounded-lg bg-green-950 px-3 py-1 text-lg font-bold dark:bg-gray-600">
             Affordable Plans
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -21,30 +21,30 @@ export default function Component() {
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 xl:grid-cols-3">
           <div className="flex flex-col overflow-hidden rounded-lg border  border-green-950 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
             <div className="border-b border-gray-200  px-4 py-4  dark:border-gray-800">
-              <h2 className="text-xl font-semibold tracking-wide">
+              <h2 className="text-3xl font-semibold tracking-wide">
                 Shared Hosting
               </h2>
-              <p className="text-md text-gray-500 dark:text-gray-400">
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 The perfect starting point for your website.
               </p>
             </div>
             <div className="grid items-start gap-2 p-4">
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">Free domain & SSL</span>
+                <span className="text-lg">Free domain & SSL</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">99.9% Uptime Guarantee</span>
+                <span className="text-lg">99.9% Uptime Guarantee</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">24/7/365 Support</span>
+                <span className="text-lg">24/7/365 Support</span>
               </div>
             </div>
             <div className="flex flex-col gap-1 border-t  border-gray-200 p-4">
               <span className="text-2xl font-semibold">$1.39/mo</span>
-              <span className="text-md text-gray-500 dark:text-gray-400">
+              <span className="text-lg text-gray-500 dark:text-gray-400">
                 Renewal $2.99/mo
               </span>
             </div>
@@ -57,37 +57,37 @@ export default function Component() {
               </Link>
             </div>
             <div className="border-t border-gray-200 p-4  dark:border-gray-800">
-              <p className="text-sm text-black font-bold dark:text-gray-400">
+              <p className="text-md text-black font-bold dark:text-gray-400">
                 Affiliates: Buy through 💸 and get up to 20% discount.
               </p>
             </div>
           </div>
           <div className="flex flex-col overflow-hidden rounded-lg border  border-green-950 bg-white shadow-lg  dark:border-gray-100 dark:bg-gray-950">
             <div className="border-b border-gray-200  px-4 py-4">
-              <h2 className="text-xl font-semibold tracking-wide">
+              <h2 className="text-3xl font-semibold tracking-wide">
                 VPS Hosting
               </h2>
-              <p className="text-md text-gray-500 dark:text-gray-400">
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 More power, more control, more features.
               </p>
             </div>
             <div className="grid items-start gap-2 p-4">
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">2x Speed</span>
+                <span className="text-lg">2x Speed</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">Dedicated IP</span>
+                <span className="text-lg">Dedicated IP</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">Root Access</span>
+                <span className="text-lg">Root Access</span>
               </div>
             </div>
             <div className="flex flex-col gap-1 border-t  border-gray-200 p-4">
               <span className="text-2xl font-semibold">$3.95/mo</span>
-              <span className="text-md text-gray-500 dark:text-gray-400">
+              <span className="text-lg text-gray-500 dark:text-gray-400">
                 Renewal $8.99/mo
               </span>
             </div>
@@ -100,37 +100,37 @@ export default function Component() {
               </Link>
             </div>
             <div className="border-t border-gray-200 p-4  dark:border-gray-800">
-              <p className="text-sm text-black font-bold dark:text-gray-400">
+              <p className="text-md text-black font-bold dark:text-gray-400">
                 Affiliates: Buy through 💸 and get up to 20% discount.
               </p>
             </div>
           </div>
           <div className="flex flex-col overflow-hidden rounded-lg border  border-green-900 bg-white shadow-sm  dark:border-gray-800 dark:bg-gray-950">
             <div className="border-b border-gray-200  px-4 py-4  dark:border-gray-800">
-              <h2 className="text-xl font-semibold tracking-wide">
+              <h2 className="text-3xl font-semibold tracking-wide">
                 Cloud Hosting
               </h2>
-              <p className="text-md text-gray-500 dark:text-gray-400">
+              <p className="text-lg text-gray-500 dark:text-gray-400">
                 High-performance cloud platform.
               </p>
             </div>
             <div className="grid items-start gap-2 p-4">
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">Unlimited Bandwidth</span>
+                <span className="text-lg">Unlimited Bandwidth</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">Unlimited Databases</span>
+                <span className="text-lg">Unlimited Databases</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckIcon className="h-4 w-4" />
-                <span className="text-md">Free Domain</span>
+                <span className="text-lg">Free Domain</span>
               </div>
             </div>
             <div className="flex flex-col gap-1 border-t border-gray-200  p-4">
               <span className="text-2xl font-semibold">$9.99/mo</span>
-              <span className="text-md text-gray-500 dark:text-gray-400">
+              <span className="text-lg text-gray-500 dark:text-gray-400">
                 Renewal $15.99/mo
               </span>
             </div>
@@ -143,7 +143,7 @@ export default function Component() {
               </Link>
             </div>
             <div className="border-t border-gray-200 p-4  dark:border-gray-800">
-              <p className="text-sm text-black font-bold dark:text-gray-400">
+              <p className="text-md text-black font-bold dark:text-gray-400">
                 Affiliates: Buy through 💸 and get up to 20% discount.
               </p>
             </div>
