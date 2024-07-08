@@ -22,12 +22,12 @@ const DashboardSideBar = () => {
       </div>
       <div className="h-[60%] flex flex-col space-y-4 mb-12 text-green-900">
         <div>
-        <Link href="#" >
+        <Link href="/" >
         <FaCalendarAlt className="h-6 w-6"/>
         </Link>
         </div>
         <div>
-        <Link href="#" >
+        <Link href="account-profile" >
         <FaCalendarAlt className="h-6 w-6"/>
         </Link>
         </div>
