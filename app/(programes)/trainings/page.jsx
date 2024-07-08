@@ -202,7 +202,7 @@ export default function Trainings() {
                       Cloud Engineering
                     </h2>
                     <p className="mt-2 max-w-[500px] text-black-500 md:text-xl dark:text-gray-400">
-                      Become a cloud expert with our comprehensive training
+                      Become a cloud expert withg our comprehensive training
                       program on cloud infrastructure and architecture.
                     </p>
                   </div>
