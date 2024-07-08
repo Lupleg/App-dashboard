@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import "../globals.css";
+import DashboardSideBar from "@/components/DashboardSideBar";
 import {
   ClerkProvider,
   SignInButton,
@@ -22,10 +21,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <ClerkProvider>
-        <body className={inter.className}>
-          <Header />
+       <body className={`${inter.className} flex md:flex-row flex-col w-full justify-between`} >
+          <DashboardSideBar />
+          <div className="w-full">
           {children}
-          <Footer />
+          </div>
         </body>
       </ClerkProvider>
     </html>

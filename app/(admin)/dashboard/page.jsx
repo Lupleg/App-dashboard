@@ -27,8 +27,8 @@ import {
 export default function Component() {
   const { user } = useUser();
   return (
-    <div className="flex flex-col w-full min-h-screen">
-      <header className="bg-gray-900 text-white py-6 px-6 flex items-center justify-between">
+    <div className="flex flex-col w-full h-screen overflow-scroll">
+      <header className="bg-green-900 text-white py-6 px-6 flex items-center justify-between w-full">
         <h1 className="text-2xl font-bold">Coding Challenge Dashboard</h1>
         <div className="flex items-center gap-4">
           Hello 👋, {user?.fullName}{" "}
@@ -37,7 +37,7 @@ export default function Component() {
           </SignOutButton>
         </div>
       </header>
-      <main className="flex-1 bg-gray-100 dark:bg-gray-800 p-6">
+      <main className="flex-1 bg-gray-100 dark:bg-gray-800 p-6 w-full">
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-6 mt-4">Upcoming Challenges</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
