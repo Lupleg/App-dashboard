@@ -7,10 +7,10 @@ function Organization() {
   return (
     <div>
       <div className="w-full bg-transparent">
-        <div className="flex flex-col container mx-auto lg:py-24 py-20 px-8 w-7/10 justify-center">
-          <div className="flex flex-col gap-4 text-center ">
-            <p className=" md:text-lg">
-              We fuel innovation that leaves a lasting mark
+        <div className="flex flex-col container mx-auto lg:py-24 py-20 px-8 w-7/10 justify-flex-start font">
+          <div className="flex flex-col gap-4 text-center">
+            <p className=" md:text-2xl font-bold">
+              WE FUEL INNOVATIONS THAT LEAVES A LASTING MARK
             </p>
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-800 mb-10">
               <span className="block xl:inline">Empowering individuals</span>{" "}
@@ -33,21 +33,21 @@ function Organization() {
       </div>
 
       <CardSections
-        title="Make life easier for you"
+        title="MAKE LIFE EASIER FOR YOU"
         subtitle="Unlock the Potential of Lupleg Graduates for Your Organization"
         description="At Lupleg, we are committed to nurturing exceptional talent in the tech industry. Our comprehensive training programs equip individuals with cutting-edge skills and empower them to excel in their careers."
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
         learnMoreLink="a"
       />
       <CardSection
-        title="Train Smarter, Not Harder"
+        title="TRAIN SMARTER, NOT HARDER"
         subtitle="Streamlined Programs for Success in the Tech Industry"
         description="Our training programs are designed to help individuals develop the skills they need to succeed in the tech industry. We have you covered from the basics to advanced topics, ensuring that you are well-prepared for the challenges ahead."
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"
         learnMoreLink="a"
       />
       <CardSections
-        title="Regardless of distance"
+        title="REGARDLESS OF DISTANCE"
         subtitle="Bridging the gap for clear and effective collaboration"
         description="Location shouldn't limit learning. Lupleg makes top-notch training accessible to your beneficiaries, anywhere. Our programs bridge the gap, ensuring everyone receives the same high-quality experience, regardless of distance"
         imageUrl="https://assets-global.website-files.com/63e4cc8d2ac61a3dee9bb0ee/63e5184308199cf4867fa2ba_Group%20151-p-800.webp"

@@ -13,7 +13,7 @@ export default function Trainings() {
                 </h1>
               </div>
               <div className="flex flex-col items-start space-y-4">
-                <p className="mx-auto max-w-[700px] text-black md:text-xl">
+                <p className="mx-auto max-w-[900px] text-black md:text-2xl">
                   Unlock your full potential with Lupleg's comprehensive
                   training programs. Gain practical expertise and stay ahead of
                   the curve in the ever-evolving world of software development.
@@ -31,19 +31,21 @@ export default function Trainings() {
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                       Full-Stack Development
                     </h2>
-                    <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                    <p className="mt-2 max-w-[700px] text-grey-500 md:text-2xl dark:text-gray-400">
                       Become a versatile full-stack developer with our
                       comprehensive training program.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Button class="bg-orange-400 px-10 py-4 m-10 rounded-2xl text-white">
+                    Learn More
+                  </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950 bg-green">
+                    <h3 className="text-2xl font-semibold">
                       Front-End Development
                     </h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         React.js
@@ -62,11 +64,11 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                    <h3 className="text-2xl font-semibold">
                       Back-End Development
                     </h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Node.js
@@ -85,11 +87,11 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 pg-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                    <h3 className="text-2xl font-semibold">
                       Deployment & DevOps
                     </h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         CI/CD Pipelines
@@ -116,17 +118,21 @@ export default function Trainings() {
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                       Data Engineering
                     </h2>
-                    <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                    <p className="mt-2 max-w-[500px] text-black-500 md:text-2xl dark:text-black-400">
                       Unlock the power of data with our comprehensive data
                       engineering training program.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <div></div>
+
+                  <Button class="bg-orange-400 px-10 py-4 m-10 rounded-2xl text-white">
+                    Learn More
+                  </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">Data Pipelines</h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                    <h3 className="text-2xl font-semibold">Data Pipelines</h3>
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         ETL Processes
@@ -136,7 +142,7 @@ export default function Trainings() {
                         Data Transformation
                       </li>
                       <li>
-                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
+                        <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500 " />
                         Batch and Streaming Data
                       </li>
                       <li>
@@ -145,9 +151,9 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">Data Warehousing</h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                    <h3 className="text-2xl font-semibold">Data Warehousing</h3>
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Data Modeling
@@ -166,9 +172,9 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">Data Analytics</h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                    <h3 className="text-2xl font-semibold">Data Analytics</h3>
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Data Visualization
@@ -195,19 +201,21 @@ export default function Trainings() {
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                       Cloud Engineering
                     </h2>
-                    <p className="mt-2 max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                    <p className="mt-2 max-w-[500px] text-black-500 md:text-xl dark:text-gray-400">
                       Become a cloud expert with our comprehensive training
                       program on cloud infrastructure and architecture.
                     </p>
                   </div>
-                  <Button variant="link">Learn More</Button>
+                  <Button class="bg-orange-400 px-10 py-4 m-10 rounded-2xl text-white">
+                    Learn More
+                  </Button>
                 </div>
-                <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">
+                <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-black-800 dark:bg-black-950">
+                    <h3 className="text-2xl font-semibold">
                       Cloud Fundamentals
                     </h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Cloud Computing Concepts
@@ -226,11 +234,11 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                    <h3 className="text-2xl font-semibold">
                       Cloud Architecture
                     </h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Serverless Computing
@@ -249,9 +257,9 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
-                    <h3 className="text-lg font-semibold">Cloud Operations</h3>
-                    <ul className="mt-4 space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                    <h3 className="text-2xl font-semibold">Cloud Operations</h3>
+                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400 bg-green">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Infrastructure as Code
