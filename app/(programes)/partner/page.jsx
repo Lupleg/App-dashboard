@@ -13,7 +13,7 @@ export default function Partnership() {
               <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
                 Partner with Lupleg EduSaaS
               </h1>
-              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+              <p className=" mt-6 space-y-12 mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                 Lupleg is a leading provider of educational SaaS solutions. Join
                 our partner network and help schools and districts transform
                 their learning experiences.

@@ -17,15 +17,15 @@ export default function Component() {
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Sponsor Us
               </h1>
-              <p className="mt-4 text-gray-500 md:text-xl dark:text-gray-400">
+              <p className=" mt-4 text-gray-500 md:text-2xl dark:text-gray-400">
                 Join us in making a difference. Become a sponsor and help us
                 achieve our mission.
               </p>
             </div>
             <div className="space-y-4">
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Our Mission</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-2xl font-bold">Our Mission</h3>
+                <p className=" text-lg text-gray-500 dark:text-gray-400">
                   We are a non-profit organization dedicated to empowering our
                   local community. Our mission is to provide educational
                   resources, job training, and support services to those in
@@ -33,8 +33,8 @@ export default function Component() {
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Our Impact</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-2xl font-bold">Our Impact</h3>
+                <p className=" text-lg text-gray-500 dark:text-gray-400">
                   Over the past 5 years, we have helped over 10,000 individuals
                   gain access to life-changing resources and opportunities. Your
                   sponsorship will allow us to continue expanding our reach and
@@ -49,19 +49,21 @@ export default function Component() {
         <div className="container px-4 md:px-6">
           <div className="space-y-6">
             <div>
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
+              <h2 className="text-4xl font-bold tracking-tighter md:text-4xl">
                 Sponsorship Opportunities
               </h2>
-              <p className="mt-4 text-gray-500 md:text-xl dark:text-gray-400">
+              <p className="mt-4 text-gray-500 md:text-2xl dark:text-gray-400">
                 Choose from our various sponsorship packages to find the best
                 fit for your organization.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              <Card className="space-y-4">
+              <Card className="space-y-4 mt-20 mb-0">
                 <CardHeader>
                   <CardTitle>Platinum</CardTitle>
-                  <CardDescription>$10,000</CardDescription>
+                  <CardDescription className=" text-lg">
+                    $10,000
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-gray-500 dark:text-gray-400">
@@ -84,10 +86,10 @@ export default function Component() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="space-y-4">
+              <Card className="space-y-4 mt-20 mb-0">
                 <CardHeader>
                   <CardTitle>Gold</CardTitle>
-                  <CardDescription>$5,000</CardDescription>
+                  <CardDescription className=" text-lg">$5,000</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-gray-500 dark:text-gray-400">
@@ -110,10 +112,10 @@ export default function Component() {
                   </ul>
                 </CardContent>
               </Card>
-              <Card className="space-y-4">
+              <Card className="space-y-4 mt-20 mb-0">
                 <CardHeader>
                   <CardTitle>Silver</CardTitle>
-                  <CardDescription>$2,500</CardDescription>
+                  <CardDescription className=" text-lg">$2,500</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2 text-gray-500 dark:text-gray-400">
@@ -147,34 +149,34 @@ export default function Component() {
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
                 Why Sponsor Us?
               </h2>
-              <p className="mt-4 text-gray-500 md:text-xl dark:text-gray-400">
+              <p className="mt-3 text-xl mt-4 text-gray-500 md:text-xl dark:text-gray-400">
                 Become a part of our mission and unlock valuable benefits for
                 your organization.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="space-y-2">
+              <div className="space-y-2 mt-20 mb-0">
                 <StoreIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
-                <h3 className="text-lg font-bold">Brand Exposure</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-2xl font-bold">Brand Exposure</h3>
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   Increase your brand visibility and reach our engaged audience
                   through various marketing channels.
                 </p>
               </div>
-              <div className="space-y-2">
+              <div className="space-y-2 mt-20 mb-0">
                 <GroupIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
-                <h3 className="text-lg font-bold">Community Engagement</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-2xl font-bold">Community Engagement</h3>
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   Connect with our community and demonstrate your commitment to
                   social responsibility.
                 </p>
               </div>
-              <div className="space-y-2">
+              <div className="space-y-2 mt-20 mb-0">
                 <AlignRightIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
-                <h3 className="text-lg font-bold">
+                <h3 className="text-2xl font-bold">
                   Alignment with Our Mission
                 </h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   Align your brand with our mission and values to showcase your
                   dedication to making a positive impact.
                 </p>
@@ -185,37 +187,37 @@ export default function Component() {
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
         <div className="container px-4 md:px-6">
-          <div className="space-y-6">
+          <div className="space-y-6  mt-20 mb-0">
             <div>
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
+              <h2 className="text-4xl font-bold tracking-tighter md:text-4xl">
                 Our Audience
               </h2>
-              <p className="mt-4 text-gray-500 md:text-xl dark:text-gray-400">
+              <p className="mt-4 text-gray-500 md:text-2xl dark:text-gray-400">
                 Reach a diverse and engaged audience through your sponsorship.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="space-y-2">
+              <div className="space-y-2 mt-20 mb-0">
                 <InfoIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
-                <h3 className="text-lg font-bold">Demographics</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-2xl font-bold">Demographics</h3>
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   Our audience consists of a diverse group of individuals aged
                   18-65, with a focus on local community members.
                 </p>
               </div>
-              <div className="space-y-2">
+              <div className="space-y-2 mt-20 mb-0">
                 <FocusIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
-                <h3 className="text-lg font-bold">Interests</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-2xl font-bold">Interests</h3>
+                <p className="text-lg text-gray-500 dark:text-gray-400">
                   Our audience is passionate about social impact, education, and
                   community development. They are influential decision-makers
                   and opinion leaders.
                 </p>
               </div>
-              <div className="space-y-2">
+              <div className="space-y-2 mt-20 mb-0">
                 <LinkIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
-                <h3 className="text-lg font-bold">Reach</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-2xl font-bold">Reach</h3>
+                <p className=" text-lg text-gray-500 dark:text-gray-400">
                   Our events and digital platforms reach over 50,000 individuals
                   in the local area, providing excellent visibility for your
                   brand.
@@ -232,13 +234,13 @@ export default function Component() {
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">
                 Our Sponsors
               </h2>
-              <p className="mt-4 text-gray-500 md:text-xl dark:text-gray-400">
+              <p className=" mt-4 text-gray-500 md:text-2xl dark:text-gray-400">
                 See what our previous sponsors have to say about their
                 experience.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              <Card className="space-y-4">
+              <Card className="space-y-4 mt-20 mb-0">
                 <CardHeader>
                   <div className="flex items-center gap-4">
                     <Avatar>
@@ -246,24 +248,24 @@ export default function Component() {
                       <AvatarFallback>JD</AvatarFallback>
                     </Avatar>
                     <div>
-                      <p className="text-sm font-medium leading-none">
+                      <p className="text-2xl font-medium leading-none">
                         John Doe
                       </p>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                      <p className="text-xl text-gray-500 dark:text-gray-400">
                         CEO, Acme Inc.
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-lg text-gray-500 dark:text-gray-400">
                     "Sponsoring this organization has been a fantastic\n
                     experience for our brand. We've seen a significant\n
                     increase in brand awareness and customer\n engagement."
                   </p>
                 </CardContent>
               </Card>
-              <Card className="space-y-4">
+              <Card className="space-y-4 mt-20 mb-0">
                 <CardHeader>
                   <div className="flex items-center gap-4">
                     <Avatar>
@@ -271,17 +273,17 @@ export default function Component() {
                       <AvatarFallback>SM</AvatarFallback>
                     </Avatar>
                     <div>
-                      <p className="text-sm font-medium leading-none">
+                      <p className="text-2xl font-medium leading-none">
                         Sarah Miller
                       </p>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                      <p className="text-xl text-gray-500 dark:text-gray-400">
                         CMO, Globex Corporation
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-lg text-gray-500 dark:text-gray-400">
                     "We're thrilled to be a sponsor of this\n organization.
                     Their events and initiatives have\n provided us with
                     valuable opportunities to connect\n with our target
@@ -289,7 +291,7 @@ export default function Component() {
                   </p>
                 </CardContent>
               </Card>
-              <Card className="space-y-4">
+              <Card className="space-y-4 mt-20 mb-0">
                 <CardHeader>
                   <div className="flex items-center gap-4">
                     <Avatar>
@@ -297,17 +299,17 @@ export default function Component() {
                       <AvatarFallback>LW</AvatarFallback>
                     </Avatar>
                     <div>
-                      <p className="text-sm font-medium leading-none">
+                      <p className="text-2xl font-medium leading-none">
                         Lisa Wang
                       </p>
-                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                      <p className="text-xl text-gray-500 dark:text-gray-400">
                         Director of Marketing, Stark Industries
                       </p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-500 dark:text-gray-400">
+                  <p className="text-lg text-gray-500 dark:text-gray-400">
                     "Sponsoring this organization has been a great way\n for us
                     to demonstrate our commitment to social\n responsibility and
                     give back to the community."
@@ -332,8 +334,8 @@ export default function Component() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <div className="space-y-2">
                 <AppWindowIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
-                <h3 className="text-lg font-bold">Application</h3>
-                <p className="text-gray-500 dark:text-gray-400">
+                <h3 className="text-3xl font-bold">Application</h3>
+                <p className="text-xl text-gray-500 dark:text-gray-400">
                   Complete our online sponsorship application form to express
                   your interest.
                 </p>
