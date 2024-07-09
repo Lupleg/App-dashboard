@@ -9,7 +9,7 @@ export default function Academy() {
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
               Lupleg Academy
             </h1>
-            <p className="mx-auto max-w-md p-5 text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
+            <p className="mx-auto  max-w-md p-5 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-2xl/relaxed dark:text-gray-400">
               Master in-demand tech skills and land your dream tech job.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function Academy() {
                   $199
                 </p>
               </div>
-              <p className="mx-auto text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
+              <p className="mx-auto text-lg text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
                 This course will introduce you to the world of web development.
                 You will learn HTML, CSS, and JavaScript from scratch.
               </p>
@@ -64,7 +64,7 @@ export default function Academy() {
                   $10
                 </p>
               </div>
-              <p className="mx-auto text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
+              <p className="mx-auto text-lg text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
                 Learn React from Facebook engineers. This course will take your
                 React skills to the next level.
               </p>
@@ -98,7 +98,7 @@ export default function Academy() {
                   $20
                 </p>
               </div>
-              <p className="mx-auto text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
+              <p className="mx-auto text-lg text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
                 This course will introduce you to Freelancing basics starting
                 from scratch to landing your first client on Upwork. .
               </p>
@@ -132,7 +132,7 @@ export default function Academy() {
                   $10
                 </p>
               </div>
-              <p className="mx-auto text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
+              <p className="mx-auto text-lg text-left ml-1 max-w-md text-gray-500 md:text-xl lg:text-base xl:text-xl dark:text-gray-400">
                 This course will introduce you to how to use git and github for
                 version control and collaboration with other developers.
               </p>
