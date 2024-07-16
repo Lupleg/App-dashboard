@@ -36,16 +36,16 @@ export default function Trainings() {
                       comprehensive training program.
                     </p>
                   </div>
-                  <Button class="bg-orange-400 px-10 py-4 m-10 rounded-2xl text-white">
+                  <Button class="bg-orange-600 px-10 py-4 m-10 rounded-2xl text-white">
                     Learn More
                   </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950 bg-green">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950 bg-green">
                     <h3 className="text-2xl font-semibold">
                       Front-End Development
                     </h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         React.js
@@ -64,11 +64,11 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-2xl font-semibold">
                       Back-End Development
                     </h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Node.js
@@ -87,11 +87,11 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-500 bg-green-950 pg-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-2xl font-semibold">
                       Deployment & DevOps
                     </h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-3 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         CI/CD Pipelines
@@ -125,14 +125,14 @@ export default function Trainings() {
                   </div>
                   <div></div>
 
-                  <Button class="bg-orange-400 px-10 py-4 m-10 rounded-2xl text-white">
+                  <Button class="bg-orange-600 px-10 py-4 m-10 rounded-2xl text-white">
                     Learn More
                   </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-2xl font-semibold">Data Pipelines</h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         ETL Processes
@@ -151,9 +151,9 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-2xl font-semibold">Data Warehousing</h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Data Modeling
@@ -172,9 +172,9 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-2xl font-semibold">Data Analytics</h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Data Visualization
@@ -206,16 +206,16 @@ export default function Trainings() {
                       program on cloud infrastructure and architecture.
                     </p>
                   </div>
-                  <Button class="bg-orange-400 px-10 py-4 m-10 rounded-2xl text-white">
+                  <Button class="bg-orange-600 px-10 py-4 m-10 rounded-2xl text-white">
                     Learn More
                   </Button>
                 </div>
                 <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-black-800 dark:bg-black-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-black-800 dark:bg-black-950">
                     <h3 className="text-2xl font-semibold">
                       Cloud Fundamentals
                     </h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Cloud Computing Concepts
@@ -234,11 +234,11 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-2xl font-semibold">
                       Cloud Architecture
                     </h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Serverless Computing
@@ -257,9 +257,9 @@ export default function Trainings() {
                       </li>
                     </ul>
                   </div>
-                  <div className="rounded-lg border border-gray-500 bg-green-950 p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
+                  <div className="rounded-lg border border-gray-600 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950">
                     <h3 className="text-2xl font-semibold">Cloud Operations</h3>
-                    <ul className="mt-4 space-y-2 text-lg text-gray-500 dark:text-gray-400 bg-green">
+                    <ul className="mt-4 space-y-2 text-lg text-black-500 dark:text-gray-400 bg-green">
                       <li>
                         <CheckIcon className="mr-2 inline-block h-4 w-4 text-green-500" />
                         Infrastructure as Code
