@@ -5,6 +5,11 @@ import { UserButton } from "@clerk/nextjs";
 import { SignOutButton } from "@clerk/nextjs";
 import { CiLogout } from "react-icons/ci";
 import { FaCalendarAlt } from "react-icons/fa";
+import { IoIosHome } from "react-icons/io";
+import { IoSettings } from "react-icons/io5";
+import { CgProfile } from "react-icons/cg";
+import { IoMailSharp } from "react-icons/io5";
+import { GiProgression } from "react-icons/gi";
 
 const DashboardSideBar = () => {
   return (
@@ -22,34 +27,34 @@ const DashboardSideBar = () => {
       </div>
       <div className="h-[60%] flex flex-col space-y-4 mb-12 text-green-900">
         <div>
-        <Link href="/" >
-        <FaCalendarAlt className="h-6 w-6"/>
-        </Link>
+          <Link href="home">
+            <IoIosHome className="h-6 w-6" />
+          </Link>
         </div>
         <div>
-        <Link href="account-profile" >
-        <FaCalendarAlt className="h-6 w-6"/>
-        </Link>
+          <Link href="account-profile">
+            <CgProfile className="h-6 w-6" />
+          </Link>
         </div>
         <div>
-        <Link href="#" >
-        <FaCalendarAlt className="h-6 w-6"/>
-        </Link>
+          <Link href="#">
+            <IoMailSharp className="h-6 w-6" />
+          </Link>
         </div>
         <div>
-        <Link href="#" >
-        <FaCalendarAlt className="h-6 w-6"/>
-        </Link>
+          <Link href="#">
+            <FaCalendarAlt className="h-6 w-6" />
+          </Link>
         </div>
         <div>
-        <Link href="#" >
-        <FaCalendarAlt className="h-6 w-6"/>
-        </Link>
+          <Link href="#">
+            <GiProgression className="h-6 w-6" />
+          </Link>
         </div>
         <div>
-        <Link href="#" >
-        <FaCalendarAlt className="h-6 w-6"/>
-        </Link>
+          <Link href="settings">
+            <IoSettings className="h-6 w-6" />
+          </Link>
         </div>
       </div>
       <div className="text-green-700 font-bold mt-32 flex flex-col items-center">
@@ -58,8 +63,8 @@ const DashboardSideBar = () => {
           <UserButton className="m-2 h-40 w-40 " />
         </div>
         <SignOutButton>
-            <CiLogout className="cursor-pointer h-6 w-6" />
-          </SignOutButton>
+          <CiLogout className="cursor-pointer h-6 w-6" />
+        </SignOutButton>
       </div>
     </div>
   );

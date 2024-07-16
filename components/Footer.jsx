@@ -2,6 +2,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+
 export default function Footer() {
   return (
     <footer className="bg-green-950 p-10 text-white">
