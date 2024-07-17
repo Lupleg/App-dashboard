@@ -44,12 +44,8 @@ export default function Component() {
             <Card className=" border border-gray-600 flex flex-col justify-center items-start">
               <SiThealgorithms className="text-[45px] ml-8 text-[#ED7133] font-bold mt-3" />
               <CardHeader>
-                <CardTitle className="mb-4">
-                  Algorithm Challenge
-                </CardTitle>
-                <CardDescription className="">
-                  June 15, 2023
-                </CardDescription>
+                <CardTitle className="mb-4">Algorithm Challenge</CardTitle>
+                <CardDescription className="">June 15, 2023</CardDescription>
               </CardHeader>
               <CardContent className="w-full flex items-end justify-between">
                 <Button
@@ -67,9 +63,7 @@ export default function Component() {
                 <CardTitle className="mb-4">
                   Data Structures Challenge
                 </CardTitle>
-                <CardDescription className="">
-                  Nov 15, 2023
-                </CardDescription>
+                <CardDescription className="">Nov 15, 2023</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button
@@ -87,9 +81,7 @@ export default function Component() {
                 <CardTitle className="mb-4">
                   Coding Interview Challenge
                 </CardTitle>
-                <CardDescription className="">
-                  June 15, 2023
-                </CardDescription>
+                <CardDescription className="">June 15, 2023</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button
@@ -229,9 +221,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between mb-2 mt-3">
-                  <span className="text-green-900">
-                    Score: 95
-                  </span>
+                  <span className="text-green-900">Score: 95</span>
                   <Button
                     variant="solid"
                     size="sm"
@@ -249,9 +239,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between mb-2 mt-2">
-                  <span className=" text-green-900">
-                    Score: 95
-                  </span>
+                  <span className=" text-green-900">Score: 95</span>
                   <Button
                     variant="solid"
                     size="sm"
@@ -269,9 +257,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <div className="flex items-center justify-between mb-2 mt-3">
-                  <span className=" text-green-900">
-                    Score: 95
-                  </span>
+                  <span className=" text-green-900">Score: 95</span>
                   <Button
                     variant="solid"
                     size="sm"
@@ -290,9 +276,16 @@ export default function Component() {
             <Table>
               <TableHeader className="text-xl rounded-t-lg font-bold">
                 <TableRow>
-                  <TableHead className="py-4 text-[#000] font-bold">Rank</TableHead>
-                  <TableHead className="py-4 text-[#000] font-bold"> User </TableHead>
-                  <TableHead className="py-4 text-[#000] font-bold">Score</TableHead>
+                  <TableHead className="py-4 text-[#000] font-bold">
+                    Rank
+                  </TableHead>
+                  <TableHead className="py-4 text-[#000] font-bold">
+                    {" "}
+                    User{" "}
+                  </TableHead>
+                  <TableHead className="py-4 text-[#000] font-bold">
+                    Score
+                  </TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
