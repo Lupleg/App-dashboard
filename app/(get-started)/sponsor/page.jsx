@@ -159,7 +159,7 @@ export default function Component() {
               <div className="space-y-2 pt-20 mt-20 mb-0">
                 <StoreIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
                 <h3 className="text-2xl font-bold">Brand Exposure</h3>
-                <p className="text-lg text-gray-500 dark:text-gray-400">
+                <p className="text-xl text-gray-500 dark:text-gray-400">
                   Increase your brand visibility and reach our engaged audience
                   through various marketing channels.
                 </p>
@@ -167,7 +167,7 @@ export default function Component() {
               <div className="space-y-2 pt-20 mt-20 mb-0">
                 <GroupIcon className="h-8 w-8 text-gray-500 dark:text-gray-400 " />
                 <h3 className="text-2xl font-bold">Community Engagement</h3>
-                <p className="text-lg text-gray-500 dark:text-gray-400">
+                <p className="text-xl text-gray-500 dark:text-gray-400">
                   Connect with our community and demonstrate your commitment to
                   social responsibility.
                 </p>
@@ -177,7 +177,7 @@ export default function Component() {
                 <h3 className="text-2xl font-bold">
                   Alignment with Our Mission
                 </h3>
-                <p className="text-lg text-gray-500 dark:text-gray-400">
+                <p className="text-xl text-gray-500 dark:text-gray-400">
                   Align your brand with our mission and values to showcase your
                   dedication to making a positive impact.
                 </p>
@@ -201,7 +201,7 @@ export default function Component() {
               <div className="space-y-2 mt-20 mb-0 pt-20">
                 <InfoIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
                 <h3 className="text-2xl font-bold">Demographics</h3>
-                <p className="text-lg text-gray-500 dark:text-gray-400">
+                <p className="text-xl text-gray-500 dark:text-gray-400">
                   Our audience consists of a diverse group of individuals aged
                   18-65, with a focus on local community members.
                 </p>
@@ -209,7 +209,7 @@ export default function Component() {
               <div className="space-y-2 mt-20 mb-0 pt-20">
                 <FocusIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
                 <h3 className="text-2xl font-bold">Interests</h3>
-                <p className="text-lg text-gray-500 dark:text-gray-400">
+                <p className="text-xl text-gray-500 dark:text-gray-400">
                   Our audience is passionate about social impact, education, and
                   community development. They are influential decision-makers
                   and opinion leaders.
@@ -218,7 +218,7 @@ export default function Component() {
               <div className="space-y-2 mt-20 mb-0 pt-20">
                 <LinkIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
                 <h3 className="text-2xl font-bold">Reach</h3>
-                <p className=" text-lg text-gray-500 dark:text-gray-400">
+                <p className=" text-xl text-gray-500 dark:text-gray-400">
                   Our events and digital platforms reach over 50,000 individuals
                   in the local area, providing excellent visibility for your
                   brand.

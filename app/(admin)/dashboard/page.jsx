@@ -2,10 +2,9 @@
 
 import { CiLogout } from "react-icons/ci";
 import { SignOutButton, useUser } from "@clerk/nextjs";
+
 import { SiThealgorithms } from "react-icons/si";
 import { FaDatabase, FaCode } from "react-icons/fa";
-
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardHeader,
